@@ -1,8 +1,0 @@
-services:
-  - type: web
-    name: stick-clash
-    runtime: node
-    plan: free
-    buildCommand: npm install
-    startCommand: npm start
-    healthCheckPath: /healthz
